@@ -1,0 +1,278 @@
+body{
+    font-family: 'Yu Gothic';
+    font-size: 12px;
+    margin: 0;
+    opacity: 0;
+    transition: .9s;
+}
+
+body.showUp{
+    opacity: 1;
+    background-color: f8f8ff;
+}
+
+
+.wrap{
+    background-color: f8f8ff;
+}
+
+
+
+header{
+    background-image: url(img/back/b0.jpg) ;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+    padding: 148px 0 211px 0;
+    width: 100%;
+    background-size: cover;
+    height: 307px;
+}
+
+.head-title{
+    width: 332px;
+    padding: 1px 18px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+h1{
+    font-size: 78px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    opacity: 0.78;
+}
+
+.top{
+    height: 616.39px;
+}
+
+.top-text{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top-title{
+    margin-bottom: 24px;
+}
+
+.top strong{
+    margin: 7px;
+    padding: 1px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 31.81784px;
+    background-color: rgba(238, 238, 238, 0.1);
+}
+
+
+h2{
+    font-size: 46.5813px;
+    margin: 0 0 6px;
+    font-family: sans-serif;
+    color: white;
+}
+
+h3{
+    font-size: 13px;
+    color: white;
+}
+
+h4{
+    margin: 0px 0px 24.8832px;
+}
+
+.title{
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.concept, .concept-jp{
+     color: #BABABA;
+}
+
+.intro1{
+    font-size: 32.3482px;
+    margin: 0 28px 40px;
+}
+
+.intro2{
+    margin: 0px 20px 24px;
+    font-size: 12px;
+}
+
+.intro2 span{
+    margin: 0px 0px 12px;
+    display: block;
+}
+
+.view{
+    padding: 0px 8px 32px 0px;
+}
+
+.top .view{
+    padding: 0px 8px 32px 20px;
+}
+
+.ser-intro{
+    background-color: black;
+    text-align: center;
+}
+
+.ser_list ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ser_list li{
+    list-style: none;
+    padding: 8px 8px;
+    box-shadow: 1px 1px 3px 3px rgb(0 0 0 / 20%);
+    border: 1px solid #000000;
+    border-radius: 3%;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    margin: 1.5vw;
+    text-align: center;
+}
+
+
+.ser_list li .name1{
+    font-size: 1.44rem;
+    font-weight: 600;
+    font-family: "Work Sans",sans-serif;
+    margin: 0 auto;
+    letter-spacing: .02em;
+    line-height: 1.6;
+}
+
+.ser_list li .name2{
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体, YuGothic, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", メイリオ, Meiryo, sans-serif;
+    vertical-align: baseline;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.ser_text{
+        margin: 5vw;
+        font-size: 12px
+}
+
+.ser_text1{
+     font-family: "Work Sans",sans-serif;
+     font-weight: 600;
+}
+
+.ser_text2{
+    font-weight: normal;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体, YuGothic, 游ゴシック, "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", メイリオ, Meiryo, sans-serif;
+}
+
+.com{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+
+}
+
+
+.down-img{
+    padding: 180px 0 100px 0;
+    background-image: url(img/back/b0.jpg);
+    background-size: cover;
+    }
+
+
+footer{
+    color: white;
+    background-color: #4c4a4c;
+    text-align: center;
+}
+
+footer img{
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+}
+
+footer h2{
+    border-bottom: solid 2px #FFFFFF;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    margin: 0px 0px 40px 0px;
+    padding: 0 0 0 0;
+    text-align: center;
+    max-width: 100%;
+    justify-content: center;
+}
+
+
+/*ここからJS*/
+
+
+.menu{
+    max-width: 1000px
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0;
+    z-index: 999;
+}
+
+.menubtn{
+    width: 100%;
+    max-width: 50px;
+    position: fixed;
+    top: 12px;
+    right: 12px;
+
+    
+}
+
+.menubtn:hover{
+    box-shadow: 1px 1px 3px 3px rgb(0 0 0 / 20%);
+    border-radius: 100%;
+    background-color: #BABABA;
+}
+
+
+
+nav{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 147px;
+    right: 16px;
+    font-size: 20px;
+}
+
+nav li{
+    list-style: none;
+    font-family: Lato;
+    font-weight: 400;
+    margin: 0 0 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #252a36;
+}
+
+nav li span{
+    font-size: 10px;
+    color: #BABABA;
+}
+
+
+
+
