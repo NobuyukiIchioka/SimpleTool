@@ -1,0 +1,195 @@
+body{
+    background-color: f8f8ff;
+    font-family: 'Yu Gothic';
+    font-size: 12px;
+    text-align: 
+}
+
+header{
+    background-image: url(img/back/b0.jpg) ;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+    padding: 148px 0 211px 0;
+    width: 100%;
+    background-size: cover;
+    height: 307px;
+}
+
+
+
+
+.head-title{
+    width: 332px;
+    padding: 1px 18px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+h1{
+    font-size: 78px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    opacity: 0.78;
+}
+
+/* ここまでheader */
+/* topここから */
+
+
+
+.top{
+    padding: 90px 0px 80px 0px;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-tex{
+    text-align: center;
+}
+
+.top-text1{
+    border: 8px solid red;
+    border-radius: 58px;
+    padding: 17px 41px 22px;
+
+    font-size: 28px;
+    color: #4c4a4a;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+
+    display: inline-block;
+    width: min-content;
+    margin: 0px 0px 40px;
+}
+
+.r2{
+    border: 8px solid blue;
+}
+
+.o3{
+    border: 8px solid yellow;
+}
+
+.top-text2{
+    font-family: 'Noto Sans JP';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #4c4a4a;
+
+    padding: 0 50px;
+}
+
+
+/* ここまで top*/
+
+/* lineupここから */
+
+
+
+.lineup{
+    background-color: #252A36;
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    height: 454px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lineup-title{
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    border-bottom: solid 3px;
+
+    margin: 0px 0px 40px;
+    display: inline-block;
+}
+
+.lineup-list{
+}
+
+.item{
+    display: inline-block;
+    background-color: white;
+    padding: 13.78px;
+    margin: 12px;
+
+}
+
+
+
+
+
+/*ここからJS*/
+
+
+.menu{
+    max-width: 1000px
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0;
+    z-index: 999;
+}
+
+.menubtn{
+    width: 100%;
+    max-width: 50px;
+    position: fixed;
+    top: 12px;
+    right: 12px;
+
+    
+}
+
+.menubtn:hover{
+    box-shadow: 1px 1px 3px 3px rgb(0 0 0 / 20%);
+    border-radius: 100%;
+    background-color: #BABABA;
+}
+
+
+
+nav{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 147px;
+    right: 16px;
+    font-size: 20px;
+}
+
+nav li{
+    list-style: none;
+    font-family: Lato;
+    font-weight: 400;
+    margin: 0 0 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #252a36;
+}
+
+nav li span{
+    font-size: 10px;
+    color: #BABABA;
+}
