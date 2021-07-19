@@ -53,7 +53,7 @@ h1{
 }
 
 .top-text1{
-    border: 8px solid red;
+/*     border: 8px solid red; */
     border-radius: 58px;
     padding: 17px 41px 22px;
 
@@ -70,13 +70,11 @@ h1{
     margin: 0px 0px 40px;
 }
 
-.r2{
-    border: 8px solid blue;
-}
+.m1{ border: 8px solid red;}
 
-.o3{
-    border: 8px solid yellow;
-}
+.r2{ border: 8px solid blue;}
+
+.o3{ border: 8px solid yellow;}
 
 .top-text2{
     font-family: 'Noto Sans JP';
